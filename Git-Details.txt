@@ -1,6 +1,94 @@
 #Create Folder on Desktop
 
+Learn Git
+
 #Change path in cmd
 
-#Git init
+cd C:\Users\yuvansh\Desktop\Learn Git
 
+#To initialize git
+
+git init
+
+#To check status
+
+git status
+
+#To add all file
+
+git add .
+
+or 
+
+git add -A
+
+#TO remove file from cache
+
+git rm --cached Git-Details.txt
+
+#To add specific file
+
+git add Git-Details.txt
+
+#To add comment or commit or screenshot
+
+#sytnax :- git commit -m "Comments"
+
+git commit -m "Added Both Files"
+
+#If you got error "unable to auto-detect email address git", Type
+
+git config --global user.email "yuvansh2@gmail.com"
+
+
+
+#To link local machine data to github cloud
+
+#Syntax:- git remote add origin shareable link
+
+git remote add origin https://github.com/Yuvansh1/learngit.git
+
+#To add content on github cloud from Local machine
+
+git push origin master
+
+#To check Branch
+
+git branch
+
+#Suppose if you want to copy data from Learn Git Folder to user2 folder, Then type
+
+git clone https://github.com/Yuvansh1/learngit.git
+
+#Suppose if you want to add another file, Then copy paste that file in Learn Git Folder and type
+
+git add init.txt
+
+#To add new file on github cloud, Then again type
+
+git commit -m "add init.txt"
+
+#Then
+
+git push origin master
+
+#To add init.txt file in user2 folder, use git pull command
+
+git pull origin master
+
+
+#For SSH
+
+#In CMD, Type
+
+1. ssh-keygen
+
+#Go to C:\Users\yuvansh\.ssh location and open id_rsa public file and copy key
+
+#Then go to Github.com > Settings > SSH and GPG Keys
+
+#Give Title wwhatever you wanr and Paste copied content in Key Section
+
+#then type
+
+git clone git@github.com:Yuvansh1/learngit.git
