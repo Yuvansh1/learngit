@@ -1,0 +1,6 @@
+#Create Folder on Desktop
+
+#Change path in cmd
+
+#Git init
+
