@@ -76,6 +76,9 @@ git push origin master
 
 git pull origin master
 
+#To forcefully push fike in origin
+
+git push -f origin master
 
 #For SSH
 
